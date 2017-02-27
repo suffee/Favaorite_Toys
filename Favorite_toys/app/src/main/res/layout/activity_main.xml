@@ -6,23 +6,29 @@
     and:orientation="vertical"
     and:layout_width="match_parent"
     and:layout_height="match_parent"
+    and:background="#78909C"
     >
     <ImageView
         and:layout_width="match_parent"
         and:layout_height="11dp"
         and:background="#FF4081"
         and:id="@+id/imageView" />
+    <RelativeLayout
+    and:layout_width="match_parent"
+    and:layout_height="match_parent">
 
-    <TextView
-        and:text="Hello! World"
-        and:textSize="40sp"
-        and:textColor="#4A148C"
-        and:background="#FFF8E1"
-        and:layout_width="match_parent"
-        and:layout_weight="1"
-        ></TextView>
+        <TextView
 
-
+            and:text="Hello! World"
+            and:textSize="40sp"
+            and:textColor="#4A148C"
+            and:background="#FFF8E1"
+            and:layout_height="wrap_content"
+            and:layout_width="wrap_content"
+            and:layout_weight="1"
+            and:layout_centerHorizontal="true"
+            and:layout_alignParentBottom="true" />
+</RelativeLayout>
 
 
 </LinearLayout>
