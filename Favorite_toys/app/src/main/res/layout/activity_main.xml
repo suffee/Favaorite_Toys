@@ -9,7 +9,7 @@
     >
     <ImageView
         and:layout_width="match_parent"
-        and:layout_height="10dp"
+        and:layout_height="11dp"
         and:background="#FF4081"
         and:id="@+id/imageView" />
 
